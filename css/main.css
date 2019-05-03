@@ -3933,7 +3933,25 @@ textarea.article-theme::placeholder {
   padding-left: 8px;
   height: auto;
 }
-
+.comment-leave{
+  padding: 20px 0;
+}
+.comment-leave h4{
+  font-family: "Montserrat Bold";
+  margin-bottom: 16px;
+}
+.comment-leave .btn-blue{
+  padding: 7px 25px;
+  float: right;
+}
+.comment-leave .btn-blue::after{
+  clear: both;
+  display: table;
+  content: " ";
+}
+.comment-top{
+  margin-top: 30px;
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .project-cover {
     display: block;
