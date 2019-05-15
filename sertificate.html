@@ -6,6 +6,7 @@
     <title>Sertificate</title>
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/lightgallery.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 </head>
@@ -126,59 +127,59 @@
             <li class="active">Сертификаттар</li>
         </ol>
         <h1 class="block-title">Жетістіктер</h1>
-        <div class="row">
+        <div class="row selector1">
             <div class="col-md-3 col-sm-3">
                 <a href="#">
-                    <div class="sert-item">
+                    <div class="sert-item item" data-src="img/main/sert1.png">
                         <img src="img/main/sert1.png" alt="">
                     </div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-3">
                 <a href="#">
-                    <div class="sert-item">
+                    <div class="sert-item item" data-src="img/main/sert2.png">
                         <img src="img/main/sert2.png" alt="">
                     </div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-3">
                 <a href="#">
-                    <div class="sert-item">
+                    <div class="sert-item item" data-src="img/main/sert1.png">
                         <img src="img/main/sert1.png" alt="">
                     </div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-3">
                 <a href="#">
-                    <div class="sert-item">
+                    <div class="sert-item item" data-src="img/main/sert2.png">
                         <img src="img/main/sert2.png" alt="">
                     </div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-3">
                 <a href="#">
-                    <div class="sert-item">
+                    <div class="sert-item item" data-src="img/main/sert1.png">
                         <img src="img/main/sert1.png" alt="">
                     </div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-3">
                 <a href="#">
-                    <div class="sert-item">
+                    <div class="sert-item item" data-src="img/main/sert2.png">
                         <img src="img/main/sert2.png" alt="">
                     </div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-3">
                 <a href="#">
-                    <div class="sert-item">
+                    <div class="sert-item item" data-src="img/main/sert1.png">
                         <img src="img/main/sert1.png" alt="">
                     </div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-3">
                 <a href="#">
-                    <div class="sert-item">
+                    <div class="sert-item item" data-src="img/main/sert2.png">
                         <img src="img/main/sert2.png" alt="">
                     </div>
                 </a>
@@ -284,6 +285,15 @@
     </div>
 </footer>
 <script src="js/libs.min.js"></script>
+<script src="js/lightgallery.min.js"></script>
+<script src="js/lg-fullscreen.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.selector1').lightGallery({
+            selector: '.item'
+        });
+    });
+</script>
 <script src="js/common.js"></script>
 </body>
 </html>
